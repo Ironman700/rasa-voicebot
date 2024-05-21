@@ -150,7 +150,7 @@ responses:
   utter_ask_for_RC_in_else:
   - text: ""
 
-  not_possible:
+  utter_not_possible:
   - text: ""
   
   utter_wants_to_upload_other_documents:
