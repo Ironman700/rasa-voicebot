@@ -89,3 +89,139 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: wrong_number
+  examples: |
+
+- intent: right_number
+  examples: |
+  
+- intent: person_not_correct
+  examples: |
+  
+- intent: phone_number
+  examples: |
+  
+- intent: person_calls_right_person
+  examples: |
+  
+- intent: right_name
+  examples: |
+  
+- intent: not_interested
+  examples: |
+  
+- intent: interested
+  examples: |
+  
+- intent: has_all_the_docs
+  examples: |
+  
+- intent: asked_eligible_vehicles
+  examples: |
+  
+- intent: vehicle_not_in_list
+  examples: |
+  
+- intent: PAN_not_there
+  examples: |
+  
+- intent: DL_not_there
+  examples: |
+  
+- intent: Bike_not_there
+  examples: |
+  
+- intent: RC_not_there
+  examples: |
+  
+- intent: has_feature_phone
+  examples: |
+  
+- intent: want_to_apply_for_aadhaar
+  examples: |
+  
+- intent: RC_online
+  examples: |
+  
+- intent: can_arrange
+  examples: |
+  
+- intent: version_less_than_10
+  examples: |
+  
+- intent: planning_to_buy_phone
+  examples: |
+  
+- intent: applied_for_DL
+  examples: |
+  
+- intent: not_applied_for_DL
+  examples: |
+  
+- intent: asks_for_app
+  examples: |
+  
+- intent: ask_number
+  examples: |
+  
+- intent: asks_to_send_on_another_number
+  examples: |
+  
+- intent: has_anyone_else_bike
+  examples: |
+  
+- intent: not_have_else_bike
+  examples: |
+  
+- intent: asks_to_wait
+  examples: |
+  
+- intent: has_all_the_mentioned_docs
+  examples: |
+  
+- intent: opening_app
+  examples: |
+  
+- intent: is_in_doc_ver_section
+  examples: |
+  
+- intent: done_uploading_pic
+  examples: |
+  
+- intent: done_uploading_pan
+  examples: |
+  
+- intent: photo_not_clear
+  examples: |
+  
+- intent: uploaded_another_pic
+  examples: |
+  
+- intent: sent_on_whatsapp
+  examples: |
+  
+- intent: PAN_verification_done
+  examples: |
+  
+- intent: uploaded_aadhar_card
+  examples: |
+  
+- intent: aadhaar_verification_done
+  examples: |
+  
+- intent: DL_uploaded
+  examples: |
+  
+- intent: gives_the_DL_details
+  examples: |
+  
+- intent: DL_expired
+  examples: |
+  
+- intent: DL_not_expired
+  examples: |
+  
+- intent: gives_date_of_renewal
+  examples: |
+  
