@@ -8,6 +8,52 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - wrong_number
+  - right_number
+  - person_not_correct
+  - phone_number
+  - person_calls_right_person
+  - right_name
+  - not_interested
+  - interested
+  - has_all_the_docs
+  - asked_eligible_vehicles
+  - vehicle_not_in_list
+  - PAN_not_there
+  - DL_not_there
+  - Bike_not_there
+  - RC_not_there
+  - has_feature_phone
+  - want_to_apply_for_aadhaar
+  - RC_online
+  - can_arrange
+  - version_less_than_10
+  - planning_to_buy_phone
+  - applied_for_DL
+  - not_applied_for_DL
+  - asks_for_app
+  - aks_number
+  - asks_to_send_on_another_number
+  - has_anyone_else_bike
+  - not_have_else_bike
+  - asks_to_wait
+  - has_all_the_mentioned_docs
+  - opening_app
+  - is_in_doc_ver_section
+  - done_uploading_pic
+  - done_uploading_pan
+  - photo_not_clear
+  - uploaded_another_pic
+  - sent_on_whatsapp
+  - PAN_verification_done
+  - uploaded_aadhar_card
+  - aadhaar_verification_done
+  - DL_uploaded
+  - gives_the_DL_details
+  - DL_expired
+  - DL_not_expired
+  - gives_date_of_renewal
+
 
 responses:
   utter_greet:
@@ -28,6 +74,132 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_confirm_name:
+  - text: ""
+
+  utter_ask_interested_to_become_captain:
+  - text: ""
+
+  utter_ask_number:
+  - text: ""
+  
+  utter_ask_interested_in_rapido:
+  - text: ""
+
+  utter_ask_name_and_city:
+  - text: ""
+  
+  utter_ask_for_docs:
+  - text: ""
+  
+  utter_ask_bike_type_and_number:
+  - text: ""
+  
+  utter_give_list_of_eligible_vehicles:
+  - text: ""
+  
+  utter_ready_to_go_for_the_onboarding_process:
+  - text: ""
+  
+  utter_check_if_applied_for_aadhaar:
+  - text: ""
+  
+  utter_tell_about_aadhaar:
+  - text: ""
+  
+  utter_ask_whether_wants_to_do_document_verification_now_or_later:
+  - text: ""
+  
+  utter_tell_to_arange_for_android:
+  - text: ""
+  
+  utter_tell_not_works_for_that_version:
+  - text: ""
+
+  utter_ask_date:
+  - text: ""
+  
+  utter_without_a_DL_it_is_not_possible:
+  - text: ""
+  
+  utter_ask_date_for_DL:
+  - text: ""
+  
+  utter_start_onboarding_process:
+  - text: ""
+  
+  utter_ask_for_queries:
+  - text: ""
+  
+  utter_tell_that_email_was_sent_to_his_number:
+  - text: ""
+  
+  utter_tell_number:
+  - text: ""
+  
+  utter_ask_the_number:
+  - text: ""
+  
+  utter_confirm_the_number:
+  - text: ""
+  
+  utter_ask_if_anyone_else_can_give_him_bike:
+  - text: ""
+
+  utter_ask_for_RC_in_else:
+  - text: ""
+
+  not_possible:
+  - text: ""
+  
+  utter_wants_to_upload_other_documents:
+  - text: ""
+  
+  utter_check_if_has_other_docs_handy:
+  - text: ""
+
+  utter_confirm_if_he_has_those_handy:
+  - text: ""
+  
+  utter_ask_to_go_on_doc_ver_section:
+  - text: ""
+  
+  utter_ask_to_wait_for_pic_verification:
+  - text: ""
+  
+  utter_ask_to_upload_pancard:
+  - text: ""
+  
+  utter_confirm_user_PAN_name_and_number:
+  - text: ""
+  
+  utter_ask_him_to_upload_another_pic_or_can_try_to_whatsapp_also:
+  - text: ""
+  
+  utter_photo_verified_correctly:
+  - text: ""
+  
+  utter_ask_to_upload_aadhar_card_pic:
+  - text: ""
+  
+  utter_verify_aadhar_number_and_name:
+  - text: ""
+  
+  utter_ask_to_upload_DL:
+  - text: ""
+  
+  utter_confirm_DL_number_state_and_name:
+  - text: ""
+  
+  utter_ask_the_renewal_date_of_DL:
+  - text: ""
+  
+  utter_schedule_the_verification_for_renewal_date:
+  - text: ""
+  
+  utter_thanks_for_using_rapido_and_tell_documents_verified:
+  - text: ""
 
 session_config:
   session_expiration_time: 60
