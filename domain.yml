@@ -1,5 +1,5 @@
 version: "3.1"
-#hello
+
 intents:
   - greet
   - goodbye
@@ -32,7 +32,7 @@ intents:
   - applied_for_DL
   - not_applied_for_DL
   - asks_for_app
-  - aks_number
+  - ask_number
   - asks_to_send_on_another_number
   - has_anyone_else_bike
   - not_have_else_bike
@@ -76,31 +76,31 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_confirm_name:
-  - text: ""
+  - text: "Am i talking to suresh from bangalore"
 
   utter_ask_interested_to_become_captain:
-  - text: ""
+  - text: "Are you intrested in knowing the benefits of becoming a rapido captain"
 
-  utter_ask_number:
-  - text: ""
+ utter_ask_number:
+  - text: "Can you please share their number with us?"
   
   utter_ask_interested_in_rapido:
-  - text: ""
+  - text: "Are you intrested in knowing features of rapido?"
 
   utter_ask_name_and_city:
-  - text: ""
+  - text: "May i know your name and city?"
   
   utter_ask_for_docs:
   - text: ""
   
   utter_ask_bike_type_and_number:
-  - text: ""
+  - text: "Can you please let me know if which bike do you hav eand it's number?"
   
   utter_give_list_of_eligible_vehicles:
-  - text: ""
+  - text: "Everything except KTM,NAVI,DUKE,HERO_CB_100,CBR_150,250,PULSAR_RS200,YAMAHA_MT125,Perak,Apache_RR310,Classic_500,Impuls,RX_100,300,DOMINAR_400,Himalaya,Below_85CC,TVS_XL,Suzuki_Hayabusa,R15,Xpulse,INTRUDER,FZ250,HERO_fx3r//Hero_fxcr,Above_3500CC_Except_Royal Enfield,Yamaha_MT15"
   
   utter_ready_to_go_for_the_onboarding_process:
-  - text: ""
+  - text: "Fantastic!To become a captain,you need to have a few documents-an Android or iOS mobile phone,a driving license,a bike with RC and PAN/Aadhaar.Do you have all these documents?"
   
   utter_check_if_applied_for_aadhaar:
   - text: ""
@@ -108,98 +108,122 @@ responses:
   utter_tell_about_aadhaar:
   - text: ""
   
-  utter_ask_whether_wants_to_do_document_verification_now_or_later:
+ utter_ask_whether_wants_to_do_document_verification_now_or_later:
   - text: ""
   
-  utter_tell_to_arange_for_android:
-  - text: ""
+  utter_tell_to_arrange_for_android:
+  - text: "Sorry sir,without an android or an iphone you would not be able to accept rides or get your payments.You can arrange for one and we will arrange for a call back"
+
+  utter_android_or_ios_would_work:
+  - text: "Any android with or ios device would work"
   
   utter_tell_not_works_for_that_version:
-  - text: ""
+  - text: "Sorry sir,but our captain app works best with Android 10 and above"
 
   utter_ask_date:
-  - text: ""
+  - text: "Ok sir,we can arrange a call back as soon as you get a new phone,when should i call you back?"
   
   utter_without_a_DL_it_is_not_possible:
   - text: ""
   
-  utter_ask_date_for_DL:
+  ask_date_for_DL:
   - text: ""
   
-  utter_start_onboarding_process:
+  start_onboarding_process:
   - text: ""
   
-  utter_ask_for_queries:
+  ask_for_queries:
   - text: ""
   
-  utter_tell_that_email_was_sent_to_his_number:
+  tell_that_email_was_sent_to_his_number:
   - text: ""
   
-  utter_tell_number:
+  tell_number:
   - text: ""
   
-  utter_ask_the_number:
+  ask_the_number:
   - text: ""
   
-  utter_confirm_the_number:
+  confirm_the_number:
   - text: ""
   
   utter_ask_if_anyone_else_can_give_him_bike:
-  - text: ""
+  - text: "you can use your friends or relative bike too,provided they have a valid RC.Let us know if you have access to this"
 
-  utter_ask_for_RC_in_else:
-  - text: ""
+   utter_have_RC_online:
+   -text: "That's alright sir,you can upload online document too."
 
-  utter_not_possible:
-  - text: ""
+  utter_no_RC_not_possible:
+  - text: "Sorry sir,but without an RC we would not be able to proceed further.You can apply for it and we can arrange for a callback."
   
+  utter_ask_which_time_works:
+  -text: "Sure.Please let e know what time works for you."
+
+  utter_arranging_callback:
+  -text: "Alright.We will call you same time next week.Please say ok to proceed."
+
   utter_wants_to_upload_other_documents:
-  - text: ""
+  - text: "Thank you for your time.Would you like to upload the remaining documents now,or would you prefer to do it together with the RC?"
   
   utter_check_if_has_other_docs_handy:
-  - text: ""
+  - text: "I am hoping you have your DL,Aadhar ard and Pancard handy?.If not we can hold for a minute for you to fetch it."
+
+ utter_hold:
+ -text: "We will hold for a few minutes for you to gather the documents"
 
   utter_confirm_if_he_has_those_handy:
-  - text: ""
+  - text: "That's great,Confirming that you have your DL,Aadhar and Pan handy"
   
   utter_ask_to_go_on_doc_ver_section:
-  - text: ""
+  - text: "Please go on document verification section."
   
+  utter_ask_to_upload_pic:
+  -text: "Now please follow the steps a smentioned.1st upload a clear Professional PIC(No sunglasses/CAP)"
+
   utter_ask_to_wait_for_pic_verification:
-  - text: ""
+  - text: "Please wait while we verify your profile photo."
   
   utter_ask_to_upload_pancard:
-  - text: ""
+  - text: "Your profile photo has been verified,we can proceed with the documents.can you pleasee hit on Pan card section and upload or click a photo of your pancard. "
   
   utter_confirm_user_PAN_name_and_number:
-  - text: ""
-  
+  - text: "can you please confirm your PAN name and number"
+
+  utter_verify_pancard_image:
+  -text: "please wait while we match your pan card with the details you shared"
+
   utter_ask_him_to_upload_another_pic_or_can_try_to_whatsapp_also:
-  - text: ""
+  - text: "Yes sir,we are still verifying your pan card.It appears that there is some glare in the image.can you please try clicking another photo without any glare.you can also send the image to our whatsapp number which i would ping you with and the team can have a look at it."
   
+   utter_upload _image:
+   - text: "Please upload your image on the whatsapp message that you have received from rapido."
+
   utter_photo_verified_correctly:
-  - text: ""
+  - text: "We have reviewed the document and we can proceed wth the same.This photo works.Thank you sir/mam."
   
   utter_ask_to_upload_aadhar_card_pic:
-  - text: ""
+  - text: "Now,can for the third step can you please upload of take photo of your front and back of aadhar card?"
   
   utter_verify_aadhar_number_and_name:
-  - text: ""
+  - text: "That's great.We have received your aadhar photo.Can you please verify your Aadhar number and name. "
   
+  utter_matches_aadhar:
+  - text: "That matches the aadhar card you uploaded.Thank you."
+
   utter_ask_to_upload_DL:
-  - text: ""
+  - text: "Now,please upload DL."
   
   utter_confirm_DL_number_state_and_name:
-  - text: ""
+  - text: "Please confirm your DL number,issuing state and name on DL"
   
   utter_ask_the_renewal_date_of_DL:
-  - text: ""
+  - text: "It appears,that your DL has been expired.You will have to renew the DL and apply again.Can you please tell me when will you be able to renew the DL?"
   
   utter_schedule_the_verification_for_renewal_date:
-  - text: ""
+  - text: "Okay,we can arrange a call back next month."
   
-  utter_thanks_for_using_rapido_and_tell_documents_verified:
-  - text: ""
+ utter_thanks_for_using_rapido_and_tell_documents_verified:
+  - text: "All your documents have been verified and you can starttaking rides in next 12 hours."
 
 session_config:
   session_expiration_time: 60
