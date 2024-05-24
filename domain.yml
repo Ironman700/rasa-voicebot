@@ -76,10 +76,16 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_confirm_name:
-  - text: "Am i talking to suresh from bangalore"
+  - text: "Am i talking to suresh from bangalore?"
+
+utter_wrong_name:
+ -text: "We received your inquiry on our application but we apologies for the inconvenience. Are you interested in knowing the benefits of becoming a captain with Rapido?"
 
   utter_ask_interested_to_become_captain:
-  - text: "Are you intrested in knowing the benefits of becoming a rapido captain"
+  - text: "Are you intrested in knowing the benefits of becoming a rapido captain?"
+
+  utter_number_for_rapido:
+  - text: "Thank you for clarifying. Is this the number they would be using to be a Rapido Captain?"
 
  utter_ask_number:
   - text: "Can you please share their number with us?"
@@ -89,9 +95,12 @@ responses:
 
   utter_ask_name_and_city:
   - text: "May i know your name and city?"
+
+  utter_we_can't_service:
+  - text: "Hello Mahesh we don't service in rewari, yet. The closest city we serve is Gurugram, you think you will be able to work there?"
   
   utter_ask_for_docs:
-  - text: ""
+  - text: "Fantastic! To become a captain, you need to have a few documents - an Android or iOS mobile phone, a driving license, a bike with RC, and PAN/Aadhaar. Do you have all these documents?"
   
   utter_ask_bike_type_and_number:
   - text: "Can you please let me know if which bike do you hav eand it's number?"
@@ -103,14 +112,14 @@ responses:
   - text: "Fantastic!To become a captain,you need to have a few documents-an Android or iOS mobile phone,a driving license,a bike with RC and PAN/Aadhaar.Do you have all these documents?"
   
   utter_check_if_applied_for_aadhaar:
-  - text: ""
+  - text: "No problem, have you thought about applying for it?We can arrange a callback for you at a time when you're expecting to receive it"
   
   utter_tell_about_aadhaar:
-  - text: ""
+  - text: "Great! It usually takes a few weeks.You may have to check with the issuing authority. For now we can proceed with verifying the other documents, you would only be able to ride when all the documents are verified."
   
  utter_ask_whether_wants_to_do_document_verification_now_or_later:
-  - text: ""
-  
+  - text: "Do you want your documents to be verified now or later?"
+
   utter_tell_to_arrange_for_android:
   - text: "Sorry sir,without an android or an iphone you would not be able to accept rides or get your payments.You can arrange for one and we will arrange for a call back"
 
@@ -124,28 +133,29 @@ responses:
   - text: "Ok sir,we can arrange a call back as soon as you get a new phone,when should i call you back?"
   
   utter_without_a_DL_it_is_not_possible:
+  - text: "without a valid DL or LLR we cannot proceed with your application. You can apply for it online or through your nearest RTO."
+  
+  utter_ask_date_for_DL:
+  - text: "when will you get ur DL?"
+  
+  utter_start_onboarding_process:
+  - text: "That's great sir, please note,You need to upload the docs on the Captain APP and upload all the docs as mentioned.Professional PIC (No sunglasses/CAP), Upload Front & Back pic of DL & RC, Upload Aadhaar or PAN Card,Need to watch the (TRAINING VIDEO) fully Without skipping and forwarding.Inform the Captain once the Registration process is completed,his profile will be activated.and you can start with the RIDE after that.We can hold and you can put our call in speaker while we guide you step by step on how to upload these"
+  
+
+  utter_ask_for_queries:
+  - text: "Do you have any queries?"
+  
+  utter_tell_that_email_was_sent_to_his_number:
   - text: ""
   
-  ask_date_for_DL:
+  utter_tell_number:
   - text: ""
   
-  start_onboarding_process:
-  - text: ""
+  utter_ask_the_number:
+  - text: "Can you please share the number with us?"
   
-  ask_for_queries:
-  - text: ""
-  
-  tell_that_email_was_sent_to_his_number:
-  - text: ""
-  
-  tell_number:
-  - text: ""
-  
-  ask_the_number:
-  - text: ""
-  
-  confirm_the_number:
-  - text: ""
+  utter_confirm_the_number:
+  - text: "We will repeat the number you have mentioned 8798797878"
   
   utter_ask_if_anyone_else_can_give_him_bike:
   - text: "you can use your friends or relative bike too,provided they have a valid RC.Let us know if you have access to this"
@@ -223,7 +233,7 @@ responses:
   - text: "Okay,we can arrange a call back next month."
   
  utter_thanks_for_using_rapido_and_tell_documents_verified:
-  - text: "All your documents have been verified and you can starttaking rides in next 12 hours."
+  - text: "All your documents have been verified and you can start taking rides in next 12 hours."
 
 session_config:
   session_expiration_time: 60
