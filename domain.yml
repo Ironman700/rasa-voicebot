@@ -145,11 +145,14 @@ utter_wrong_name:
   utter_ask_for_queries:
   - text: "Do you have any queries?"
   
-  utter_tell_that_email_was_sent_to_his_number:
-  - text: ""
-  
+  utter_tell_which_app:
+  - text: "It is the same app that you registered yourself to be a rapido captain, We have also shared with you the link of the application via sms"
+
+utter_tell_message_sent:
+-text: "It is the same number we are calling you now that was registered to a captain with Rapido"
+
   utter_tell_number:
-  - text: ""
+  - text: "It is 6789998212"
   
   utter_ask_the_number:
   - text: "Can you please share the number with us?"
